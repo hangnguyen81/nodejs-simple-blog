@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+      body{
+        max-width: 768px;
+        margin: 20px auto;
+        padding: 0 20px;
+        font-family: 'Oswald', sans-serif;
+      }
+      p, h1, h2, h3, a, ul{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        color: #222;
+      }
+  
+      /* nav & footer styles */
+      nav{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+        text-transform: uppercase;
+      }
+      nav ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
+      nav li{
+        list-style-type: none;
+        margin-left: 20px;
+      }
+      nav h1{
+        font-size: 3em;
+      }
+      nav p, nav a{
+        color: #777;
+        font-weight: 300;
+      }
+
+      .site-subtitle{
+        letter-spacing: 3px;
+      }
+      footer{
+        color: #777;
+        text-align: center;
+        margin: 80px auto 20px;
+        border-top: 1px solid #ddd;
+        padding-top: 1rem;
+      }
+      h2{
+        margin-bottom: 40px;
+      }
+      h3{
+        text-transform: capitalize;
+        margin-bottom: 8px;
+      }
+      .content{
+        margin-left: 20px;
+      }
+  
+      /* display blog styles */
+      .blog-title{
+        letter-spacing: 1px;
+        margin-bottom: .5rem;
+        margin-top: 1rem;
+      }
+      .blog-title:hover{
+        text-decoration: underline;
+      }
+
+      .blog-content{
+        font-family: sans-serif;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+      }
+
+      .content-indent{
+        padding-left: 3rem;
+        border-left: 5px solid darkgreen;
+      }
+  
+      /* create styles */
+      .create-blog-title{
+        text-align: center;
+      }
+      .create-blog form{
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      .create-blog input,
+      .create-blog textarea{
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        padding: 8px;
+      }
+      .create-blog label{
+        display: block;
+        margin-top: 24px;
+      }
+      textarea{
+        height: 120px;
+      }
+button{
+  margin: 20px auto 0 auto;
+  background: darkgreen;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  border: 0;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+}
+button:hover{
+    background-color: rgb(0, 39, 0);
+  }
+
