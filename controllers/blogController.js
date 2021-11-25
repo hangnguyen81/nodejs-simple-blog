@@ -45,6 +45,7 @@ const blog_delete = (req, res) =>{
         .catch(err => console.log(err));
 }
 
+
 module.exports = {
     blog_index,
     blog_details,

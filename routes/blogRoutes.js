@@ -2,7 +2,6 @@ const express = require('express');
 const blogController = require('../controllers/blogController');
 
 const blogRouter = express.Router();
-
 blogRouter.get('/', blogController.blog_index);
 blogRouter.post('/',blogController.blog_create_post);
 blogRouter.get('/create', blogController.blog_create_get);
